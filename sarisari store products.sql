@@ -1,4 +1,4 @@
--- Create the table with auto-increment for ItemNo
+ 
 CREATE TABLE Products (
     ItemNo INT AUTO_INCREMENT PRIMARY KEY,
     Category VARCHAR(50),
@@ -8,7 +8,7 @@ CREATE TABLE Products (
     Price DECIMAL(10, 2)
 );
 
--- Insert data into the table
+
 INSERT INTO Products (Category, Product, Name, Brands, Price) VALUES
 ('Instant Food', 'Instant Noodles', 'Lucky Me Pancit Canton', 'Lucky Me', 18),
 ('Beverage', 'Coffee Sachet', 'Kopiko 3 in 1', 'Kopiko', 8),
