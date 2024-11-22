@@ -1,4 +1,4 @@
- 
+ --
 CREATE TABLE Products (
     ItemNo INT AUTO_INCREMENT PRIMARY KEY,
     Category VARCHAR(50),
